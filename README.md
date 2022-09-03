@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/ivabby/Profile-Card-Component)
-- Live Site URL: [Live Site URL here](https://ivabby.github.io/Profile-Card-Component/)
+- Solution URL: [Solution URL](https://github.com/ivabby/Order-Summary-Component)
+- Live Site URL: [Live Site URL here](https://ivabby.github.io/Order-Summary-Component/)
 
 ## My process
 
