@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  font-size: 16px !important;
+  font-family: "Red Hat Display", sans-serif !important;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  height: 100vh;
+}
+main > div {
+  background-color: white;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 20px !important;
+  font-weight: 900;
+}
+p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.card_image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card_plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+}
+.card_plan * {
+  margin: 0 !important;
+  margin-right: 0.3rem !important;
+}
+
+.card_change:hover {
+  text-decoration: none;
+}
+
+.submit {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%) !important;
+  outline: none;
+  border: 0 !important;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%) !important;
+  outline: none;
+  border: 0 !important;
+}
+
+button {
+  font-weight: 700;
+}
+
+.submit:hover {
+  /* background-color: hsl(224, 23%, 55%); */
+  background-color: hsl(223, 47%, 23%);
+}
+
+.cancel:hover {
+  outline: none;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg") !important;
+  }
+}
